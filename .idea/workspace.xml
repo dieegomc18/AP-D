@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a62930d4-32a7-4368-9d15-6049b47271bd" name="Changes" comment="Initial commit 2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/models/AffectedIndividual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/models/Donation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/models/Donor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/models/Need.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/services/DonationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/services/NeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/tests/DonationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hacs/tests/NeedServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hacs/db/MongoDBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hacs/database/MongoDBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hacs/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hacs/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hacs/service/AffectedService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hacs/service/DonorService.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hacs/DonationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hacs/NeedServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hacs/db/MongoDBConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hacs/AffectedServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hacs/DonorServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="5547" />
+    <option name="totalTimeSeconds" value="5695" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,9 +55,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.DonationServiceTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/diego/IdeaProjects/AP_D",
@@ -89,7 +79,7 @@
       <recent name="com.hacs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hacs.Main" />
       <module name="AP_D" />
@@ -103,9 +93,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DonationServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AP_D" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hacs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hacs" />
+      <option name="MAIN_CLASS_NAME" value="com.hacs.DonationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DonationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AP_D" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.DonationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DonationServiceTest (1)" />
+        <item itemvalue="JUnit.DonationServiceTest" />
       </list>
     </recent_temporary>
   </component>
