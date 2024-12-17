@@ -10,11 +10,12 @@ public class Main {
         NeedService needService = new NeedService();
 
         // Create and manage donations
-        Donation donation = new Donation("1", "Funds", 100.0, "For food supplies");
+        Donation donation = new Donation("1", "Funds", 100.00, "Donor1");
         donationService.createDonation(donation);
 
         // Create and manage needs
-        Need need = new Need("1", "Food", "Request for food assistance");
+
+        Need need = new Need("1", "Food", "AffectedIndividual1");
         needService.createNeed(need);
     }
 }

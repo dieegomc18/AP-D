@@ -1,13 +1,22 @@
 package com.hacs.models;
 
-
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name = "affected_individuals")
 public class AffectedIndividual {
+    @Id
     private String id;
     private String name;
+
+    @OneToMany(mappedBy = "affectedIndividual", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Need> needs;
+
+    public AffectedIndividual() {
+        this.needs = new ArrayList<>();
+    }
 
     public AffectedIndividual(String id, String name) {
         this.id = id;
